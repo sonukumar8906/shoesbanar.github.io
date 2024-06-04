@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+}
+.content {
+  height: 3.5rem;
+  align-content: center;
+  color: white;
+  font-size: 21px;
+  font-weight: 600;
+  text-align: center;
+  background: linear-gradient(to right, #3e2121, #71bf0b);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background: #51413f;
+  height: 3rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  font-size: 19px;
+}
+
+.nav ul li {
+  list-style: none;
+  padding: 0 38px 0 39px;
+  margin: 0 -12px 0 6px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+#search {
+  display: flex;
+  padding-left: 20px;
+}
+
+input {
+  width: 28rem;
+  height: 32px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  padding: 0 5px 0 12px;
+}
+
+#icon {
+  margin-left: 5px;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.slider {
+  text-align: center;
+  color: white;
+  /* align-content: center; */
+  display: flex;
+  justify-content: center;
+}
+
+.slider img {
+  width: 100%;
+  height: 60vh;
+}
+
+.slider {
+  background: url('img/asics_blog.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  align-items: center;
+}
+
+.cont {
+  height: 9rem;
+  padding: 0 2rem 0 2rem;
+  background: #2a5375;
+  opacity: 0.4;
+}
+
+.sect {
+  /* display: flex;
+  justify-content: center; */
+  background: #3c5164;
+  width: 82rem;
+  margin: auto;
+  padding-left: 40px;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.shoes img {
+  width: 10rem;
+  display: grid;
+  margin-left: 5px;
+  height: 7rem;
+}
+
+h1 {
+  color: white;
+}
+
+.main {
+  display: flex;
+}
+
+.dis P {
+  padding-left: 2rem;
+  background: #19332b;
+  color: white;
+  margin-left: 5px;
+}
+
+.banar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  background: #b5cde1;
+  height: 100%;
+}
+
+.banar img {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 225px;
+  /* border: 5px solid yellow; */
+  box-shadow: 5px 5px 5px white;
+  position: absolute;
+  left: 55rem;
+  top: 10rem;
+}
+
+.child {
+  background: linear-gradient(to right, #3c3328, #aeb923);
+  width: 85rem;
+  height: 38rem;
+}
+
+.paraa {
+  width: 38rem;
+  padding: 50px 0 0 72px;
+  color: white;
+  font-size: 20px;
+}
+
+.paraa h2 {
+  font-size: 46px;
+}
